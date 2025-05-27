@@ -196,9 +196,64 @@ section.quartos{
     font-size: 2.5rem;
 }
 
-
 .itens-container .img-itens img{
     width: 420px;
     border-radius: 15px;
     border: 2px solid orangered;
+}
+
+/* Estilo da Secao Servicos */
+
+section.servicos{
+    height: 70vh;
+    /* background-image: url(../images/hotel-noite.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+.servicos .interface{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.servicos .txt-servicos h2{
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.servicos .lista-servicos{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.servicos .servico-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicos .servico-container *{
+    margin-bottom: 3px;
+}
+
+.servicos .servico-container img{
+    width: 48px;
+}
+
+ .servicos .icone-servico{
+    margin-bottom: 15px;
+ }
+
+.servicos .descricao-servico{
+    text-align: center;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 30px;
 }
