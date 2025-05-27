@@ -123,3 +123,30 @@ section.hero-site{
     display: block;
     font-weight: bold;
 }
+
+/* Estilo da Secao Sobre */
+
+section.sobre{
+    height: 70vh;
+}
+
+.sobre .interface{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+    flex-direction: column;
+}
+
+.txt-sobre h1{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.txt-sobre p{
+    text-align: justify;
+    font-weight: 300;
+    font-size: 1.1em;
+}
