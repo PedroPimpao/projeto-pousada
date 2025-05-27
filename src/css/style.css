@@ -150,3 +150,55 @@ section.sobre{
     font-weight: 300;
     font-size: 1.1em;
 }
+
+/* Estilo da Secao Quartos */
+
+section.quartos{
+    display: flex;
+    background-color: #fafafa;
+}
+
+.quartos .interface{
+    width: 100%;
+    padding: 80px 0;
+}
+
+.itens-container{
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#item-container-2{
+    flex-direction: row-reverse;
+}
+
+.itens-container .txt-itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 40%;
+}
+
+.itens-container .txt-itens h2{
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.itens-container .txt-itens h2 span{
+    display: block;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+
+.itens-container .img-itens img{
+    width: 420px;
+    border-radius: 15px;
+    border: 2px solid orangered;
+}
