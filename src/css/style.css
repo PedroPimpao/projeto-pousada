@@ -1,0 +1,125 @@
+:root{
+    --fontFamily: "Poppins", sans-serif;
+    --branco: #fff;
+    --preto: #000;
+    --backgroundColor: #E3E3E3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fontFamily);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--backgroundColor);
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* Estilo do Header */
+
+header{
+    width: 100%;
+    padding: 30px 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header .logo img{
+    max-width: 40px;
+    cursor: pointer;
+} */
+
+header .logo a{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header .menu-desktop nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu-desktop nav ul li{
+    margin: 0 30px;
+}
+
+header .menu-desktop nav ul li a{
+    text-decoration: none;
+    color: var(--branco);
+    transition: .3s;
+
+}
+
+.menu-desktop nav a:hover{
+    display: block;
+    transform: scale(1.05);
+}
+
+header .btn-reservar button{
+    width: 140px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid var(--branco);
+    cursor: pointer;
+    transition: .5s;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+header .btn-reservar button:hover{
+    background-color: var(--branco);
+    color: #000;
+    border: 2px solid var(--branco);
+}
+
+/* Estilo da Secao Hero */
+
+section.hero-site{
+    height: 99vh;
+    background-image: url(../images/paisagem-img-sombra.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.hero-site .interface{
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.txt-hero h1{
+    color: var(--branco);
+    font-size: 2.9em;
+    font-weight: 200;
+}
+
+.txt-hero h1 span{
+    display: block;
+    font-weight: bold;
+}
