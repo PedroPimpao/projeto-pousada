@@ -176,6 +176,11 @@ section.quartos{
     flex-direction: row-reverse;
 }
 
+#item-container-1 .txt-itens h2 span, #item-container-2 .txt-itens h2 span{
+    display: inline;
+    font-weight: 600;
+}
+
 .itens-container .txt-itens{
     display: flex;
     flex-direction: column;
