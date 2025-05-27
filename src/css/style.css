@@ -119,6 +119,7 @@ section.hero-site{
     color: var(--branco);
     font-size: 2.9em;
     font-weight: 200;
+    line-height: 55px;
 }
 
 .txt-hero h1 span{
@@ -292,6 +293,7 @@ section.contato{
 .contato .contato-container h1{
     font-size: 3.5em;
     font-weight: 200;
+    line-height: 55px;
 }
 
 .contato .contato-container h1 span{
@@ -321,4 +323,58 @@ section.contato{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Estilo do Footer */
+
+footer{
+    min-height: 30vh;
+    background-color: #1d1d1d;
+}
+
+footer .interface{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer .top-footer, footer .bottom-footer{
+    width: 100%;
+}
+
+footer .redes-sociais a{
+    text-decoration: none;
+}
+
+footer .redes-sociais button{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+    margin: 0 15px;
+    font-size: 17px;
+    color: #fff;
+}
+
+footer .top-footer button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+footer .bottom-footer{
+    margin-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #fff;
+}
+
+footer .bottom-footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    margin: 0 30px;
 }
