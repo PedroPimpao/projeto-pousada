@@ -81,6 +81,9 @@ header .menu-desktop nav ul li a{
 header .btn-reservar button{
     width: 140px;
     height: 50px;
+}
+
+header .btn-reservar button, .contato .formas-contato button{
     background-color: transparent;
     border: 2px solid var(--branco);
     cursor: pointer;
@@ -89,7 +92,7 @@ header .btn-reservar button{
     font-size: 1.2em;
 }
 
-header .btn-reservar button:hover{
+header .btn-reservar button:hover, .contato .formas-contato button:hover{
     background-color: var(--branco);
     color: #000;
     border: 2px solid var(--branco);
@@ -99,17 +102,16 @@ header .btn-reservar button:hover{
 
 section.hero-site{
     height: 99vh;
-    background-image: url(../images/paisagem-img-sombra.png);
+    background-image: url(../images/pousada-escurecida.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-
 }
 
 .hero-site .interface{
     height: 100%;
+    width: 100%;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -211,11 +213,6 @@ section.quartos{
 
 section.servicos{
     height: 70vh;
-    /* background-image: url(../images/hotel-noite.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; */
 }
 
 .servicos .interface{
@@ -261,4 +258,67 @@ section.servicos{
     font-weight: 300;
     font-size: 1em;
     line-height: 30px;
+}
+
+/* Estilo da Secao Contato */
+
+section.contato{
+    height: 100vh;
+    background-image: url(../images/hotel-noite.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contato .interface{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--branco);
+}
+
+.contato .contato-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contato .contato-container h1{
+    font-size: 3.5em;
+    font-weight: 200;
+}
+
+.contato .contato-container h1 span{
+    font-weight: 600;
+    display: block;
+}
+
+.contato .contato-container .formas-contato ul{
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.contato-container .box-contato{
+    margin-bottom: 10px;
+}
+
+.contato-container .box-contato a{
+    text-decoration: none;
+}
+
+.contato-container .box-contato button{
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
