@@ -1,0 +1,98 @@
+@media screen and (max-width: 900px){
+    header .menu-desktop, .btn-reservar{
+        display: none;
+    }
+
+
+    /* Responsivo da Secao Hero */
+
+    .txt-hero h1{
+        font-size: 2.4em;
+        line-height: 50px;
+    }
+
+
+    /* Responsivo da Secao Sobre */
+
+    section.sobre{
+        height: 80vh;
+    }
+
+    .sobre .interface{
+        height: 100%;
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .txt-sobre h1{
+        text-align: center;
+    }
+
+
+    /* Responsivo da Secao Quartos */
+
+    .itens-container, #item-container-2{
+        flex-direction: column;
+    }
+
+    .itens-container .txt-itens{
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    /* Responsivo da Secao Servicos */
+
+    section.servicos{
+        height: 100vh;
+    }
+
+    .servicos .txt-servicos h2{
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .servicos .lista-servicos{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .servicos .nome-servico h3{
+        font-size: 1.5em;
+    }
+
+    .servicos .descricao-servico{
+        font-weight: 400;
+        font-size: 1.2em;
+    }
+
+
+    /* Responsivo da Secao Contato */
+
+    .contato .contato-container{
+        flex-direction: column;
+    }
+
+    .contato .contato-container h1{
+        font-size: 3em;
+        font-weight: 300;
+        line-height: 45px;
+    }
+
+    .contato-container .box-contato button{
+        height: 60px;
+        font-size: 1.2em;
+    }
+
+    /* Responsivo do Footer */
+
+    footer .bottom-footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .bottom-footer a{
+        margin: 10px 30px;
+    }
+    
+}
