@@ -1,0 +1,11 @@
+const navBar = document.querySelector('#header')
+
+document.addEventListener('scroll', ()=>{
+    let scrollTop = scrollY
+
+    if(scrollTop > 0){
+        navBar.classList.add('rolar')
+    }else{
+        navBar.classList.remove('rolar')
+    }
+})
