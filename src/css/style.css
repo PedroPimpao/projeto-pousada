@@ -102,7 +102,7 @@ header .btn-reservar button:hover, .contato .formas-contato button:hover{
 
 section.hero-site{
     height: 99vh;
-    background-image: url(../images/pousada-escurecida.png);
+    background-image: url(../images/pousada-escurecida-redimensionada.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -265,7 +265,7 @@ section.servicos{
 
 section.contato{
     height: 100vh;
-    background-image: url(../images/hotel-noite.png);
+    background-image: url(../images/hotel-noite-redimensionada.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
