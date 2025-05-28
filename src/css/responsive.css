@@ -3,6 +3,9 @@
         display: none;
     }
 
+    header .btn-menu-mobile{
+        display: block;
+    }
 
     /* Responsivo da Secao Hero */
 
@@ -94,5 +97,5 @@
     footer .bottom-footer a{
         margin: 10px 30px;
     }
-    
+
 }
